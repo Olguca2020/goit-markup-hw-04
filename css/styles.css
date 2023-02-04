@@ -130,7 +130,8 @@ body {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
-            
+      max-width: 1440px;      
+      margin: 0 auto;
       }
   
      .hero-title {   
@@ -345,15 +346,15 @@ body {
    font-size: 16px;
    color: var(--color-whit);
 }
-.container.footer{
+.footer-container{
 display: flex;
 align-items: baseline;
 gap: 120px;
 }
-.sotial-link.footer {
+.footer .sotial-link {
 background: rgba(255, 255, 255, 0.1);}
-.social-link.footer:hover,
-.social-link.footer:focus {
+.footer .sotial-link:hover,
+.footer .sotial-link:focus {
    background: var(--color-green);
 }
 /* =====PORTFOLIO===== */

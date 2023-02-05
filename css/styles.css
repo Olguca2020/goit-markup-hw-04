@@ -178,7 +178,7 @@ body {
       margin-top: 112px;
      }
     .about-icon{
-    margin: 24px 100px;
+    
   }
      .about-list {
       display: flex;
@@ -190,6 +190,9 @@ body {
       flex-basis: calc((100% - 3 * 24px) / 4);
      }
      .about-img{
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 264px;
       height: 112px;
       background: var(--color-cloud);

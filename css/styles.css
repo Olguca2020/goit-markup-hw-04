@@ -309,19 +309,22 @@ body {
       fill: var(--color-light-slate);
      }
      .customer-item{
+      display: flex;  
+      justify-content: center;
+      align-items: center;   
       border: 1px solid var(--color-light-slate); 
       border-radius: 4px;
+      width: 168px;
+      height: 88px;
      }
      .customers-icon:hover,
      .customers-icon:focus {      
      fill: var(--color-ocean);
      cursor: pointer;
-         }
-     
+         }   
 
      .customer-item:hover,
-     .customer-item:focus
-     {
+     .customer-item:focus{
       border-color: var(--color-ocean);
       cursor: pointer;
      }
